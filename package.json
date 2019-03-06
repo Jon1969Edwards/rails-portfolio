@@ -1,13 +1,13 @@
 {
-  "name": "y",
+  "name": "rails_portfolio",
   "private": true,
   "dependencies": {
     "bootstrap": "^4.3.1",
     "jquery": "^3.3.1"
   },
-  "version": "y",
+  "version": "1.0",
   "main": "index.js",
-  "repository": "y",
-  "author": "y",
-  "license": "MIT"
+  "repository": "https://github.com/Jon1969Edwards/rails-portfolio.git",
+  "author": "Jon1969Edwards",
+  "license": ""
 }
