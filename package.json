@@ -1,5 +1,8 @@
 {
   "name": "rails_portfolio",
   "private": true,
-  "dependencies": {}
+  "dependencies": {},
+  "devDependencies": {
+    "tailwindcss": "^0.7.4"
+  }
 }

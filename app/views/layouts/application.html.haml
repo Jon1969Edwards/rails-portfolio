@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+!!!
+%html
+  %head
+    %meta{content: "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
+    %title RailsPortfolio
+    = favicon_link_tag 'little_jon.ico'
+    = csrf_meta_tags
+    = csp_meta_tag
+    %link{href: "https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css", rel: "stylesheet"}/
+    = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
+    = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
+  %body
+    = yield
