@@ -1,0 +1,6 @@
+[build]
+  command = "npm run build"
+  publish = "home.html.haml"
+
+[context.deploy-preview]
+  command = "npm run build-preview"
