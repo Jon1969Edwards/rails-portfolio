@@ -5,8 +5,6 @@
 @tailwind utilities;
 
 
-.bg-cover-image {
-  background-image: url('/assets/images/programmerFound.png');
-  width: 100%; 
-  height: auto;
+.background{
+  background: image-url('programmerFound.png') no-repeat;
 }

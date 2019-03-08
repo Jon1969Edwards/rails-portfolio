@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 !!!
+= render 'partials/navbar' 
+
 %html
   %head
     %meta{content: "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
@@ -13,4 +15,5 @@
     = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
   %body
+    = image_tag 'programmerFound.png', alt: '', height: '50px', width: '', class: ''
     = yield
