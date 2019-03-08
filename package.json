@@ -10,7 +10,6 @@
   "scripts": {
     "build": "npm run build && npm run generate"
   },
-  "version": "1.0.0",
   "main": "index.js",
   "repository": "https://github.com/Jon1969Edwards/rails-portfolio.git",
   "author": "Jon1969Edwards",
