@@ -15,5 +15,10 @@
     = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
   %body
-    = image_tag 'programmerFound.png', alt: '', height: '50px', width: '', class: ''
+    %div
+      %a{href: "https://unsplash.com/photos/YTmgx_ru39U", target: "_blank"}
+        //%h1 Family.
+        //%img{alt: "A photo of a fox", src: "https://scontent-arn2-1.xx.fbcdn.net/v/t1.0-9/37078069_10157499937344692_2949962196647411712_o.jpg?_nc_cat=108&_nc_ht=scontent-arn2-1.xx&oh=b801601ebfb1d2febeb10ab4a2ef47b9&oe=5D0C1A77"}/
+      .flex.justify-center.bg-fixed-repeat.bg-cover
+        = image_tag 'programmerFound.png', alt: '', height: '200px', width: '3000px', class: ''
     = yield
