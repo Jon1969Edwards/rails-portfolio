@@ -1,9 +1,12 @@
+@tailwind preflight;
+
+@tailwind components;
+ 
+@tailwind utilities;
 
 
- @tailwind preflight;
-
- 
- @tailwind components;
- 
- 
- @tailwind utilities;
+.bg-cover-image {
+  background-image: url('/assets/images/programmerFound.png');
+  width: 100%; 
+  height: auto;
+}
