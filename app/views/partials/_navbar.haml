@@ -2,10 +2,12 @@
   .max-w-xs
     =link_to image_tag('logo_transparent.png',{class: 'logo' }), root_path 
 
-  %ul.list-reset.flex.justify-between
-  %li.mr-3
-    %a.inline-block.border.border-white.rounded.hover:border-grey-lighter.text-blue.hover:bg-grey-lighter.py-2.px-4{href: "#"} Pill
-  %li.mr-3
-    %a.inline-block.border.border-white.rounded.hover:border-grey-lighter.text-blue.hover:bg-grey-lighter.py-2.px-4{href: "#"} Pill
-  %li.mr-3
-    %a.inline-block.border.border-white.rounded.hover:border-grey-lighter.text-blue.hover:bg-grey-lighter.py-2.px-4{href: "#"} Pill
+  %ul.list-reset.flex.mt-32
+    %li.mr-6
+      %a.text-grey.hover:text-blue-darker{href: "about_me"} About Me
+    %li.mr-6
+      %a.text-grey.hover:text-blue-darker{href: "projects"} My Projects
+    %li.mr-6
+      %a.text-grey.hover:text-blue-darker{href: "EDU"} Education
+    %li.mr-6
+      %a.text-grey.hover:text-blue-darker{href: "#"} Link
