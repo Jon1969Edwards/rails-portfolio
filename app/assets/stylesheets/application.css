@@ -4,7 +4,3 @@
  
 @tailwind utilities;
 
-
-.background{
-  background: image-url('programmerFound.png') no-repeat;
-}
