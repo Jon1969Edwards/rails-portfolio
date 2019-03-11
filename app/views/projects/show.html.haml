@@ -1,0 +1,10 @@
+%body
+  #post_show_content.skinny_wrapper.wrapper_padding
+    %header
+      %p.date= @project.created_at.strftime('%A, %B %d')
+      %h1= @project.title
+      %hr/
+    #content
+      = markdown @project.description
+      %a.project_button{href: "#{@project.link}", target: "_blank"}Visit #{@project.title}
+    %hr/
