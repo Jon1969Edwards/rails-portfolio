@@ -5,6 +5,6 @@
       %h1= @project.title
       %hr/
     #content
-      = markdown @project.description
+      #markdown @project.description
       %a.project_button{href: "#{@project.link}", target: "_blank"}Visit #{@project.title}
     %hr/

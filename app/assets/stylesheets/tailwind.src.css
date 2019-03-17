@@ -1,0 +1,17 @@
+@tailwind preflight;
+
+@tailwind components;
+ 
+@tailwind utilities;
+
+.container {
+    background-image: url('') no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.background {
+  background-image: url('/images/programmerFound.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
