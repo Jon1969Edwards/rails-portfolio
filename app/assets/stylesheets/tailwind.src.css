@@ -76,5 +76,25 @@ h1, h2, h3, h4, h5, h6, p, ul, li {
   text-align: center;
 }
 
+.object-fit-fill {
+  object-fit: fill;
+}
+
+.object-fit-contain {
+  object-fit: contain;
+}
+
+.object-fit-cover {
+  object-fit: cover;
+}
+
+.object-fit-none {
+  object-fit: none;
+}
+
+.object-fit-scale-down {
+  object-fit: scale-down;
+}
+
 @import 'posts_projects';
 
