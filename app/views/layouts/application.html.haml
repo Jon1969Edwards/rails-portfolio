@@ -5,7 +5,7 @@
 %html
   %head
     %meta{content: "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
-    %title RailsPortfolio
+    %title Jon Edwards
     = favicon_link_tag 'little_jon.ico'
     = csrf_meta_tags
     = csp_meta_tag
@@ -17,3 +17,7 @@
   %body.bg-black.background-xl.container.bg-cover.bg-scroll.ml-10.w-screen
     =image_tag('programmerFound.png',{class: 'container' })
     = yield
+  %body
+    %div
+  = yield
+  = render 'partials/footer'
