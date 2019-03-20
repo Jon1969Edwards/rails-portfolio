@@ -1,22 +1,28 @@
-= form_for @project do |f|
-  = if @project.errors.any?
-    %h2
-      = pluralize(@project.errors.count, "error")
-      prevented this project from saving:
-    %ul
-      = @project.errors.full_messages.each do |msg|
-        %li= msg
-  = f.label :title
-  %br/
-  = f.text_field :title
-  %br/
-  %br/
-  = f.label :description
-  %br/
-  = f.text_area :description
-  %br/
-  %br/
-  = f.label :link
-  %br/
-  = f.text_field :link
-  = f.submit
+.w-full.max-w-xs.text-grey-darker
+  = form_for @project do |f|
+    = if @project.errors.any?
+      %h2
+        = pluralize(@project.errors.count, "error")
+        prevented this project from saving:
+      %ul
+        = @project.errors.full_messages.each do |msg|
+          %li= msg
+    .mb-4
+      %label.block.text-grey-darker.text-sm.font-bold.mb-2{for: "Title"}
+        Title
+      %input#title.shadow.appearance-none.border.rounded.w-full.py-2.px-3.text-grey-darker.leading-tight.focus:outline-none.focus:shadow-outline{placeholder: "Title", type: "text"}/
+    .mb-6
+      %label.block.text-grey-darker.text-sm.font-bold.mb-2{for: "Description"}
+        Description
+      %input#description.shadow.appearance-none.border.border-red.rounded.w-full.py-2.px-3.text-grey-darker.mb-3.leading-tight.focus:outline-none.focus:shadow-outline{placeholder: "Description", type: "description"}/
+    .mb-4
+      %label.block.text-grey-darker.text-sm.font-bold.mb-2{for: "Link"}
+        Site Link
+      %input#link.shadow.appearance-none.border.border-red.rounded.w-full.py-2.px-3.text-grey-darker.mb-3.leading-tight.focus:outline-none.focus:shadow-outline{placeholder: "Link", type: "link"}/
+    .flex.items-center.justify-between
+      %button.bg-blue.hover:bg-blue-dark.text-white.font-bold.py-2.px-4.rounded.focus:outline-none.focus:shadow-outline{type: "button"}
+        Submit
+      %link
+        
+      
+  %p.text-center.text-grey.text-xs
