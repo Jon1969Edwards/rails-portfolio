@@ -1,5 +1,8 @@
 Rails.application.routes.draw do
-  resources :posts
+  get 'contact/post'
+  get 'contact/index'
+  resources :contact
+    get 'contact' => 'contact#index'
   resources :projects
   resources :about_me
     get 'about_me' => 'about_me#index'
