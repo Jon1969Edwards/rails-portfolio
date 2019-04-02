@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 !!!
 = render 'partials/navbar' 
 
@@ -15,7 +14,9 @@
     = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
   %body.bg-black.background-xl.container.bg-cover.bg-scroll.ml-10.w-screen
+    = yield
+    %br
     = render 'partials/homepage'
-
-  = yield
-  = render 'partials/footer'
+    %br
+    = render 'partials/footer'
+    = render 'partials/footer'
