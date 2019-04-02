@@ -13,5 +13,8 @@
   "main": "index.js",
   "repository": "https://github.com/Jon1969Edwards/rails-portfolio.git",
   "author": "Jon1969Edwards",
-  "license": ""
+  "license": "",
+  "devDependencies": {
+    "stylelint-config-recommended": "^2.1.0"
+  }
 }
