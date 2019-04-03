@@ -96,5 +96,14 @@ h1, h2, h3, h4, h5, h6, p, ul, li {
   object-fit: scale-down;
 }
 
+.bg-header {
+  background: url(https://picsum.photos/1920/1920/?random) center center no-repeat;
+  background-attachment: fixed;
+}
+
+.bg-quote {
+  background: url(https://picsum.photos/1600/1600/?random) center center no-repeat;
+  background-attachment: fixed;
+}
 @import 'posts_projects';
 
