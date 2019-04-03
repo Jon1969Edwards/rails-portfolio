@@ -14,10 +14,7 @@
   "author": "Jon1969Edwards",
   "license": "",
   "devDependencies": {
-<<<<<<< HEAD
-    "tailwindcss": "^0.7.4"
-=======
+    "tailwindcss": "^0.7.4",
     "stylelint-config-recommended": "^2.1.0"
->>>>>>> functionality
   }
 }
