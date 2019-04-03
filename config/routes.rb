@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  resources :contact, only: [:new, :create]
+  resources :contacts, only: [:new, :create]
     get 'contact/new' => 'contact#new'
     post 'contact/create'
   resources :projects
