@@ -1,6 +1,13 @@
-<!DOCTYPE html>
 !!!
-= render 'partials/navbar' 
+= render 'partials/navbar'
+%br
+%br
+= yield 
+%br
+%br
+%br
+%br
+%br 
 
 %html
   %head
@@ -14,7 +21,15 @@
     %link{href: "https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css", rel: "stylesheet"}/
     = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
-  %body.bg-black.background-xl.container.bg-cover.bg-scroll.ml-10.w-screen
-    = render 'partials/homepage'
-  = yield
+  %body.bg-black
+  = render 'partials/homepage'
+  %br
+  %br
+  %br
+  %br
+  %br
+  %br
+  %br
+  %br
+  
   = render 'partials/footer'
