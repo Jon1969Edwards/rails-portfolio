@@ -3,6 +3,7 @@ Rails.application.routes.draw do
     get '/contacts' => 'contacts#new'
     post '/contact/create'
   resources :projects
+  resources :education
   resources :about_me
     get 'about_me' => 'about_me#index'
   get '/', to: 'homepage#home', as: 'root'
