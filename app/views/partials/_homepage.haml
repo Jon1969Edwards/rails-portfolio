@@ -1,11 +1,11 @@
 %section.relative.py-8.px-4
   .z-20.relative.text-white.container.mx-auto
     %h1.mb-4 Tailwind Banner with Object Fit Image
-    %p.leading-normal This is a banner that can be resized to your heart’s content without using a background image property.
-    %p.leading-normal Integer eu massa ipsum. Quisque dui purus, congue in urna sed, volutpat condimentum nisi. Ut elementum tellus quam, sit amet congue ante tempus id. Phasellus ultricies enim in est posuere, quis semper urna consequat.
-    %a.inline-block.bg-blue.text-white.no-underline.hover:bg-blue-dark.mt-4.p-4.rounded-full{href: "#"} A Call to Action
+    //%p.leading-normal This is a banner that can be resized to your heart’s content without using a background image property.
+    //%p.leading-normal Integer eu massa ipsum. Quisque dui purus, congue in urna sed, volutpat condimentum nisi. Ut elementum tellus quam, sit amet congue ante tempus id. Phasellus ultricies enim in est posuere, quis semper urna consequat.
+    //%a.inline-block.bg-blue.text-white.no-underline.hover:bg-blue-dark.mt-4.p-4.rounded-full{href: "#"} A Call to Action
   .absolute.pin.h-full.z-10
-    %img.h-screen.w-full.object-fit-cover{alt: "", src: "https://i.pinimg.com/originals/d8/73/ea/d873eac96e8c253b95c6c58e273c9a4d.png"}/
+    %img.h-screen.w-full.object-fit-cover.pl-6.pr-6{alt: "", src: "https://i.pinimg.com/originals/d8/73/ea/d873eac96e8c253b95c6c58e273c9a4d.png"}/
 
-.bg-black
+.bg-black.mb-32
   = render 'partials/card'
